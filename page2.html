@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        label {
+            display: block;
+        }
+
+        body{
+            background-color: #000; color: white;
+        }
+
+        form{
+            padding: 20px;
+            margin-top: 30px;
+            max-width: 100%;
+        }
+
+        input, select, button {
+            padding: 10px;
+            max-width: 50%;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: darkgreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1><em>...next page</em></h1>
+    <form action="success.html">
+        <label for="amount">AMOUNT</label>
+        <input type="number" id="number" name="number" placeholder="Naira" required>
+        <br><br>
+
+        <label for="year of return">YEAR OF RETURN</label>
+        <input type="number" id="number" name="number" placeholder="Year of return" required >
+        <br><br>
+        
+        <label for="state">STATE</label>
+        <select name="state" id="state">
+            <option value="">SELECT</option>
+            <option value="">ABIA</option>
+            <option value="">ADAMAWA</option>
+            <option value="">AKWA IBOM</option>
+            <option value="">ANAMBRA</option>
+            <option value="">BAUCHI</option>
+            <option value="">BAYELSA</option>
+            <option value="">BENUE</option>
+            <option value="">BORNO</option>
+            <option value="">CROSS RIVER</option>
+            <option value="">DELTA</option>
+            <option value="">EBONYI</option>
+            <option value="">EDO</option>
+            <option value="">EKITI</option>
+            <option value="">ENUGU</option>
+            <option value="">GOMBE</option>
+            <option value="">IMO</option>
+            <option value="">JIGAWA</option>
+            <option value="">KADUNA</option>
+            <option value="">KANO</option>
+            <option value="">KATSINA</option>
+            <option value="">KEBBI</option>
+            <option value="">KOGI</option>
+            <option value="">KWARA</option>
+            <option value="">LAGOS</option>
+            <option value="">NASARAWA</option>
+            <option value="">NIGER</option>
+            <option value="">OGUN</option>
+            <option value="">ONDO</option>
+            <option value="">OSUN</option>
+            <option value="">OYO</option>
+            <option value="">PLATEAU</option>
+            <option value="">RIVER</option>
+            <option value="">SOKOTO</option>
+            <option value="">TARABA</option>
+            <option value="">YOBE</option>
+            <option value="">ZAMFARA</option>
+            <option value="">FCT</option>
+            
+        </select>
+        <br><br>
+
+        <label for="mobile number">MOBILE NUMBER</label>
+        <input type="mobile number" id="mobile number" name="mobile number" placeholder="Mobile Number" required>
+        <br><br>
+
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>
