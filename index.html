@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+
+    <style>
+        body {
+            background-color: #000; 
+            color: white;
+
+        }
+        h1 {
+            color: darkgreen;
+        }
+
+        label {
+            display: block; 
+            margin-top: 10px;           
+        }
+
+        form {
+            padding: 20px;
+            margin-top: auto;
+            max-width: 50%; 
+            
+        }
+
+        button{
+            background-color: darkgreen;
+            color: white;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1><span style="background-color: darkgreen; color: white;">NELFUND STUDENT LOAN</span></h1>
+    <h2>Register Now!</h2>
+
+    <form action="page2.html">
+        <label for="Fullname">FULLNAME</label>
+        
+        <input type="fullname" id="fullname" name="fullname" placeholder="Fullname" required>
+        <br><br>
+
+        <label for="Institution">INSTITUTION</label> 
+        
+        <select name="institution" id="institution">
+            <option value="">SELECT</option>
+            <option value="">KWARA STATE UNIVERSITY,MALETE</option>
+            <option value="">UNIVERSITY OF ILORIN</option>
+            <option value="">UNIVERSITY OF IBADAN</option>
+            <option value="">EKITI STATE UNIVERSITY</option>
+            <option value="">UNIVERSITY OF LAGOS</option>
+            <option value="">UNIVERSITY OF ABUJA</option>
+            <option value="">UNIVERSITY OF OSUN</option>
+            <option value="">LAGOS STATE UNIVERSITY</option>
+            <option value="">KWARA STATE POLYTECHNIC</option>
+            <option value="">OTHERS</option>
+        </select>
+        <br><br>
+
+        <label for="Matric No">MATRIC NUMBER</label>
+        <input type="matric number" id="matric number" name="matric number" placeholder="Matric Number" required>
+
+        <label for="year of entry">YEAR OF ENTRY</label>
+        
+        <input type="Number" id="number" name="number" placeholder="Year of entry">
+        <br><br>
+
+        <label for="">DESCIPLINE</label>
+        
+        <input type="text" id="descipline" name="descipline" placeholder="Descipline">
+        <br><br>
+
+        <button>NEXT</button>
+    </form>
+</body>
+</html>
